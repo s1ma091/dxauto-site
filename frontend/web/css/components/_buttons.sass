@@ -1,0 +1,39 @@
+.green-btn {
+  @include size(163px, 48px);
+  border-radius: 2px;
+  background-color: $green-btn;
+  color: $white;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.54;
+  display: inline-block;
+  transition: all 500ms ease;
+  border: 1px solid transparent;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  &:hover {
+    transform: translateY(-10px);
+    text-decoration: none;
+    color: $white; } }
+
+.white-btn {
+  @include size(163px, 48px);
+  box-shadow: 0 0 5px $tech-item-border;
+  border-radius: 2px;
+  border: 1px solid $simple-grey;
+  background-color: $white;
+  color: $c-h2;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  line-height: 2.54;
+  text-align: center;
+  display: inline-block;
+  transition: all 500ms ease;
+  border: 1px solid #243b86;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  &:hover {
+    transform: translateY(-10px);
+    text-decoration: none;
+    color: $c-h2; } }

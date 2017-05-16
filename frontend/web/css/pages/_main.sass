@@ -1,0 +1,272 @@
+.start-action--btn a:first-child {
+  margin-right: 20px; }
+
+// МИ ПРОПОНУЄ СУЧАСНЕ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+// CRM-СИСТЕМУ DREAMEXTAUTO
+.trapeze-bg {
+  background: url('../img/trapeze2.png');
+  background-position: bottom;
+  background-size: cover; }
+
+.our-solutions {
+  margin-top: -40px;
+  margin-bottom: 142px;
+
+  h2 {
+    line-height: 1.33;
+    text-align: left;
+    max-width: 620px;
+    margin-bottom: 1em; }
+
+  &--descrip {
+    color: $black;
+    font-size: 1.7rem;
+    line-height: 1.4; } }
+
+.solutions-block {
+  float: left;
+
+  &:first-child {
+    padding-top: 75px; } }
+
+.solution {
+  display: flex;
+
+  & + & {
+    margin-top: 25px; }
+
+  &--icon {
+    @include size(101px, 102px);
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 25px; }
+
+  .brain {
+    background-color: $c-brain;
+    background-image: url('../img/brain-icon.png');
+    background-size: 50%; }
+
+  .battery {
+    background-color: $c-battery;
+    background-image: url('../img/battery-icon.png');
+    background-size: 50%; }
+
+  .rocket {
+    background-color: $c-rocket;
+    background-image: url('../img/rocket-icon.png');
+    background-size: 60%;
+    background-position-x: 17px; }
+
+  .bulb {
+    background-color: $c-bulb;
+    background-image: url('../img/bulb-icon.png');
+    background-size: 50%; }
+
+  &--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+  &--title {
+    font-size: 2.1rem;
+    margin-bottom: .4em; }
+
+  &--descrip {
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+    max-width: 293px; } }
+
+.solutions-block {
+  float: left; }
+
+// ОПИС СИСТЕМИ ТА ВІЗУАЛІЗАЦІЯ
+.system-descrip {
+  h2 {
+    margin-bottom: .87em; }
+
+  &--info {
+    display: flex;
+    padding-bottom: 50px;
+    @include clearfix; }
+
+  &--img img {
+    max-width: 100%; }
+
+  .dreamext-auto-goal {
+    text-align: center;
+    max-width: 635px;
+    color: $black;
+    font-size: 2rem;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-bottom: 60px; }
+
+  &--panels {
+    max-width: 645px;
+    width: 100%;
+
+    .panel-heading {
+      box-shadow: 0 3px 5px rgba(236, 236, 236, 0.75);
+      border-radius: 2px;
+      background: $white; }
+
+    .panel {
+      border: 0;
+      background: transparent;
+      box-shadow: none; }
+
+    .panel-title {
+      color: $black;
+      font-size: 1.6rem;
+      line-height: 28px;
+      text-transform: uppercase; }
+
+    .panel-collapse {
+      background: transparent; }
+
+    .panel-body {
+      color: $black;
+      font-size: 1.7rem;
+      font-weight: 300;
+      line-height: 1.2; } } }
+
+// КОНЦЕПЦІЯ КОМПЕКСНОГО РІШЕННЯ
+// та
+// ОСНОВНІ СКЛАДОВІ СПІВПРАЦІ
+.work-detail {
+  padding-bottom: 30px;
+  border-bottom: 1px solid $border-grey;
+  margin-bottom: 50px;
+  margin-top: 40px; }
+
+.concept-solutions {
+  width: 50%;
+  float: left;
+  padding-right: 65px;
+  border-right: 1px solid $border-grey; }
+
+.components-of-cooperation {
+  width: 50%;
+  float: left;
+  padding-left: 65px; }
+
+.concept-solutions .title,
+.components-of-cooperation .title {
+  color: $black;
+  font-size: 1.7rem;
+  margin-bottom: .75em; }
+
+.concept-solutions .title:not(:first-of-type),
+.components-of-cooperation .title:not(:first-of-type) {
+  margin-top: 1em; }
+
+.concept-solutions .descrip,
+.components-of-cooperation .descrip {
+  font-size: 1.7rem;
+  line-height: 1.4;
+  font-weight: 300; }
+
+.concept-solutions h2,
+.components-of-cooperation h2 {
+  text-align: left;
+  margin-bottom: .83em;
+  margin-top: 1.15em; }
+
+// ОСНОВНІ ТЕХНОЛОГІЇ РОЗРОБКИ
+.technology-of-development {
+  background: url('../img/trapeze-grey.png');
+  background-position: bottom;
+  background-size: cover;
+  h2 {
+    margin-bottom: 1.5em; } }
+
+.tech-item {
+  box-shadow: 0 0 5px $tech-item-border;
+  border-radius: 1px;
+  border: 1px solid $simple-grey;
+  background-color: $white;
+  display: flex;
+  min-height: 180px;
+  padding: 25px;
+  @include span(6 of 12);
+
+  &:nth-child(even) {
+    @include last; }
+
+  &:nth-child(n+3) {
+    margin-top: 20px; }
+
+  &.php .tech-icon {
+    background-color: #383938;
+    background-image: url('../img/php7-icon.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+  &.css .tech-icon {
+    background-color: #2262b0;
+    background-image: url('../img/css3-icon.png');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+  &.mysql .tech-icon {
+    background-color: #dddddd;
+    background-image: url('../img/mysql-icon.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+  &.one-c .tech-icon {
+    background-color: #fff200;
+    background-image: url('../img/1c-icon.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; } }
+
+.tech-icon {
+  @include size(118px, 118px);
+  min-width: 118px;
+  margin-right: 30px;
+  border-radius: 50%; }
+
+
+.tech-name {
+  color: $tech-name;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  margin-bottom: .81em; }
+
+.tech-descrip {
+  color: $tech-name;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.25; }
+
+// ЧИ ГОТОВІ ВИ ПОЧАТИ?
+// ПЕРЕГЛЯНУТИ DEMO ВЕРСІЮ АБО ЗАЛИШИТИ ЗАЯВКУ
+.start {
+  padding-bottom: 70px;
+  margin-top: 88px;
+
+  h2 {
+    text-align: left;
+    margin-bottom: 5px; }
+
+  &-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div:first-child {
+      color: $text-black;
+      font-size: 2.1rem;
+      text-transform: uppercase;
+      align-self: flex-end; } } }
+
+
+.system-descrip--panels a[aria-expanded="true"] {
+  color: $c-h2;
+  font-weight: 700; }

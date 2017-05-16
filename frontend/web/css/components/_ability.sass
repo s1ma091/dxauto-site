@@ -1,0 +1,45 @@
+.ability {
+  &--item {
+    display: flex;
+    justify-content: space-between;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse; }
+
+    & + & {
+      margin-top: 100px; } }
+
+  &--title {
+    color: $black;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+
+  &--descrip {
+    display: flex;
+    max-width: 550px; }
+
+  &--info {
+    color: $black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+    p {
+      margin-bottom: 10px; } }
+
+  &--icon {
+    margin-right: 20px;
+    img {
+      @include size(83px, 80px); } }
+
+  &--img {
+    width: 370px;
+    height: 300px;
+
+    img {
+      max-width: 100%; } } }
+
+
+
